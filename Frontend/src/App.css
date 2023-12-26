@@ -1,0 +1,49 @@
+html,body,#root{
+  width: 100%;
+  height: 100%;
+}
+
+.home{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* background-image: url('https://img.freepik.com/premium-photo/hand-painted-watercolor-green-background_469760-1661.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+.upload{
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.upload > *{
+  padding-right: 5%;
+}
+
+.camera{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.controls{
+  width: 10%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bg-explore{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}

@@ -1,0 +1,95 @@
+.file-upload {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.file-upload-section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.upload-img {
+    width: 60%;
+    height: 70%;
+    position: absolute;
+    /* top: -60%; */
+    opacity: 0;
+}
+
+.upload-icon {
+    font-size: 200px;
+}
+
+.upload-input-details {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.upload-input-title {
+    color: blue;
+}
+
+.upload-input-title:hover {
+    text-decoration: solid;
+    text-decoration-line: underline;
+}
+
+.upload-files-controllers {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;  
+}
+
+.img-section {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.final-result{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.plant-details{
+    width: 50%;
+    height: 100%;
+    padding-left: 2%;
+    overflow-y: auto;
+}
+
+.plant-title{
+    background-image: url('../assets/preload-bg.jpg');
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.no-plant{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
