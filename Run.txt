@@ -1,0 +1,6 @@
+RUN FLASK APP:
+* Run docker image using <docker run -p 5000:5000 <image_name>>
+RUN REACT-VITE APP:
+* Build using <npm run build>
+* Install serve using <npm install -g serve>
+* Run application using <serve -s dist>
